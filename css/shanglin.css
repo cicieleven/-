@@ -1,0 +1,84 @@
+/*CSS reset*/
+
+html { color:#000;}
+
+body {font: 14px/1.231 SimSun, arial, helvetica, clean, sans-serif;}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td { margin:0; padding:0;}
+
+table {}
+
+fieldset, img { border:0; }
+
+address, caption, cite, code, dfn, strong, th, var, optgroup { font-style:inherit; font-weight:inherit; }
+
+em{ font-style:normal;}
+
+b,strong{ font-weight:bold;}
+
+del, ins { text-decoration:none; }
+
+li { list-style:none; }
+
+caption, th { text-align:left; }
+
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal; }
+
+q:before, q:after { content:''; }
+
+abbr, acronym { border:0; font-variant:normal; }
+
+sup { vertical-align:baseline; }
+
+sub { vertical-align:baseline; }
+
+legend { color:#000; }
+
+
+
+input, button, textarea, select { *font-size:100%; }
+
+a,a:visited{color: #0f8f38; text-decoration:none; outline:none; blr:expression(this.onFocus=this.blur());}
+
+a:hover {color:#c00;}
+
+textarea{ resize:none; } 
+
+
+
+
+/*定位*/
+
+.tl { text-align:left; }
+
+
+.tr { text-align:right; }
+
+.bc { margin-left:0; margin-right:0; }
+
+.fl { float:left; display:inline; }
+
+.fr { float:right; display:inline; }
+
+.cb,.clear { clear:both; }
+
+.cl { clear:left; }
+
+.cr { clear:rigth; }
+
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+
+
+
+.pr { position:relative; }
+
+
+.w { width:100% }
+
+.h { height:100% }
+
+
+
+/*边距*/
+
+.ml20 { margin-left:20px; }
